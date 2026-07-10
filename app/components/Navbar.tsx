@@ -12,12 +12,14 @@ export default function Navbar() {
 
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <Image
-            src="/CompanyLogo.png"
-            alt="Crossway Infra"
-            width={55}
-            height={55}
-          />
+           <Image
+  src="/CompanyLogo.png"
+  alt="Crossway Infra"
+  width={55}
+  height={55}
+  priority
+  className="h-14 w-auto"
+ />
 
           <div>
             <h1 className="text-white font-bold text-2xl">
