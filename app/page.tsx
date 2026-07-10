@@ -17,9 +17,8 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/40"></div>
 
           <div className="relative z-10 flex h-full items-center">
-            <div className="max-w-7xl mx-auto w-full px-6">
-              <div className="max-w-2xl text-left text-white">
-                <h1 className="text-6xl md:text-7xl font-extrabold leading-tight">
+<div className="max-w-7xl mx-auto w-full px-6">              <div className="max-w-2xl text-left text-white">
+                <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight">
                   Building the <span className="text-yellow-400">Future</span>
                 </h1>
 
