@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <Image
-            src="/Companylogo.png"
+            src="/CompanyLogo.png"
             alt="Crossway Infra"
             width={55}
             height={55}
