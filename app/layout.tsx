@@ -12,12 +12,19 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-import type { Metadata } from "next";
-
 export const metadata: Metadata = {
   title: "Crossway Infra Projects Pvt. Ltd.",
   description:
     "Government Tender Consultant | Infrastructure | Construction | Engineering Services",
+  keywords: [
+    "Crossway Infra",
+    "Government Tenders",
+    "Construction Company",
+    "Infrastructure",
+    "Engineering",
+    "Delhi",
+  ],
+  authors: [{ name: "Crossway Infra Projects Pvt. Ltd." }],
 };
 
 export default function RootLayout({
@@ -26,11 +33,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
